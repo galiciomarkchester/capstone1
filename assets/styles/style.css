@@ -199,95 +199,116 @@ iframe  {
 /* ============
   Media Queries)
 ===============*/
-@media only screen and (max-width: 575px) {
-/*landing page*/
-.landing-page h1 {
-  font-size: 2.0rem;
-}
+@media only screen and (max-width: 576  px) {
+  /*landing page*/
+  .landing-page h1 {
+    font-size: 2.0rem;
+  }
 
-.landing-page p {
-  font-size: 1rem;
-}
-
-
-/*home page*/
-.card-text {
-  font-size: .8rem;
-}
-
-.card-title {
-  font-size: 1.3rem;
-}
-
-.modal-title {
-  font-size: 1.0rem;
-}
-
-.modal-body p {
-  font-family: 'Roboto', sans-serif;
-  font-size: .9rem;
-}
-
-.modal-body h3 {
-  font-size: 1.0rem;
-}
-.carousel-item {
-  height: auto;
-  background: cover;
-}
-
-/*Contact*/
-.btn  {
-  font-size: 60%;
-  padding: 5px;
-}
-.h1contact {
-  font-size: 1.6rem;
-}
-
-.btn-about  {
-  font-size: .9rem;
-  padding: 5px;
-}
-
-/*FOOTER*/
-footer {
-  margin-top: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-family: "Magra";
-  font-size: .8rem;
-
-}
-
-/*about*/
-#about h1 {
-  font-size: 1.5rem;
-  font-family: 'Roboto', sans-serif;
-}
-
-#about h3 {
-  font-size: 1.1rem;
-  font-family: 'Roboto', sans-serif;
-}
-
-#about p {
-  font-size: .8rem;
-  font-family: 'Roboto', sans-serif;
-}
-.h1contact {
-  font-size: 1.4rem;
-}
-
-}
+  .landing-page p {
+    font-size: 1rem;
+  }
 
 
-/*GALLERY*/
+  /*home page*/
+  .card-text {
+    font-size: .8rem;
+  }
 
-.h1gallery {
-  padding-top: 10px;
-  font-size: 1.6rem;
-  font-family: 'Roboto', sans-serif;
-}
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .modal-title {
+    font-size: 1.0rem;
+  }
+
+  .modal-body p {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+  }
+
+  .modal-body h3 {
+    font-size: 1.0rem;
+  }
+  .carousel-item {
+    height: auto;
+    background: cover;
+  }
+
+  /*Contact*/
+  .btn  {
+    font-size: 60%;
+    padding: 5px;
+  }
+  .h1contact {
+    font-size: 1.6rem;
+  }
+
+  .btn-about  {
+    font-size: .9rem;
+    padding: 5px;
+  }
+
+  /*FOOTER*/
+  footer {
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Magra";
+    font-size: .8rem;
+
+  }
+
+  /*about*/
+  #about h1 {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #about h3 {
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #about p {
+    font-size: .8rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  .h1contact {
+    font-size: 1.4rem;
+  }
+
+  }
+
+
+  /*GALLERY*/
+
+  .h1gallery {
+    padding-top: 10px;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .img-thumbnail {
+    position: center;
+
+  }
+
+  #gallery-icon {
+    padding: auto;
+    margin: auto;
+  }
+
+    /*.modalout {
+      height: 150%  
+      width: 150%;
+    }*/
+
+/*
+    .img-thumbnail {
+      height: 100px;
+      width: 100px;
+    }*/
 
 }
